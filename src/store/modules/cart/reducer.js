@@ -1,5 +1,4 @@
 import produce from 'immer';
-import { saturate } from 'polished';
 
 export default function cart(state = [], action) {
     switch (action.type) {

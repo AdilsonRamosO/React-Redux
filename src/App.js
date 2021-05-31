@@ -14,14 +14,14 @@ import store from './store';
 
 function App() {
   return (
-    <Provider store={store}>
       <Router history={history}>
+    <Provider store={store}>
         <Header />
         <Routes />
         <GlobalStyle />
         <ToastContainer autoClose={3000}/>
-      </Router>
     </Provider>
+      </Router>
   )
 }
 
